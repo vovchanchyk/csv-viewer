@@ -6,10 +6,9 @@ export const StyledRow = styled.div`
   align-items: center;
   height: 2;
   padding-right: 2rem;
-  
 `;
 
-export const StyledCheckbox = styled.input<{check:boolean}>`
+export const StyledCheckbox = styled.input<{ check: boolean }>`
   height: 1rem;
   width: 2rem;
   position: relative;
@@ -18,14 +17,14 @@ export const StyledCheckbox = styled.input<{check:boolean}>`
   border-radius: 10px;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   transition: 0.8s;
-  &::before{
-    content: '${(props)=> (props.check ? "on" : "off")}';
+  &::before {
+    content: "${(props) => (props.check ? "on" : "off")}";
     position: absolute;
-    display:block;
-    top: -.4rem;
+    display: block;
+    top: -0.4rem;
     left: 2.2rem;
   }
-  &::after  {
+  &::after {
     content: "";
     position: absolute;
     top: -0.1rem;
@@ -37,7 +36,6 @@ export const StyledCheckbox = styled.input<{check:boolean}>`
     transition: 0.5s;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   }
-  
 `;
 export const StyledLabel = styled.span`
   display: table-cell;
@@ -45,9 +43,9 @@ export const StyledLabel = styled.span`
   text-align: start;
   height: 2rem;
   line-height: 1.7rem;
-  margin-left:3px;
+  margin-left: 3px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden; 
+  overflow: hidden;
   width: 80px;
 `;

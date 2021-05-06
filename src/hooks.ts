@@ -1,5 +1,5 @@
 import { TypedUseSelectorHook, useSelector } from "react-redux";
-import { dataReduserType } from "../src/redux/reducers/rootReducer";
+import { dataReduserType } from "./redux/reducers/rootReducer";
 
 const useTypedSelector: TypedUseSelectorHook<dataReduserType> = useSelector;
 

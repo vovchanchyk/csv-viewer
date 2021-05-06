@@ -1,21 +1,21 @@
 export const GETRULES = "GETRULES";
 
-export const GETDATA = 'GETDATA';
+export const GETDATA = "GETDATA";
 
-export const REQUIRED = 'REQUIRED'
+export const REQUIRED = "REQUIRED";
 
-export const  PHONE = 'PHONE';
+export const PHONE = "PHONE";
 
-export const  UNIQ = 'UNIQ';
+export const UNIQ = "UNIQ";
 
-export const  EMAIL = 'EMAIL';
-  
-export const DATE = 'DATE';
+export const EMAIL = "EMAIL";
 
-export const MAXLENGTH = 'MAXLENGTH';
+export const DATE = "DATE";
 
-export const MINLENGTH = 'MINLENGTH';
+export const MAXLENGTH = "MAXLENGTH";
 
-export const MIN = 'MIN';
+export const MINLENGTH = "MINLENGTH";
 
-export const MAX = 'MAX';
+export const MIN = "MIN";
+
+export const MAX = "MAX";

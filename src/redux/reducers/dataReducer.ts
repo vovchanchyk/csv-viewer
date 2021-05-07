@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import * as actionTypes from "../actionTypes";
 
 export type ErrorType = {

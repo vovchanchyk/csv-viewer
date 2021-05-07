@@ -4,9 +4,11 @@ export const StyledRulesBody = styled.div<{ show: boolean }>`
   display: ${(props) => (props.show ? "block" : "none")};
   position: absolute;
   z-index: 2;
+  min-width: 210px;
   width: 100%;
   background: #e8edff;
   transition: 3s;
+  border: solid 0.5px white;
 `;
 
 export const StyledRulesHeader = styled.div`

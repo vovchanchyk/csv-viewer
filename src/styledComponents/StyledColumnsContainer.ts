@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledColumnsContainer = styled.div`
+const StyledColumnsContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -8,3 +8,4 @@ export const StyledColumnsContainer = styled.div`
   min-width: 250px;
   padding: 0px;
 `;
+export default StyledColumnsContainer;

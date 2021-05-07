@@ -1,12 +1,12 @@
-import React from 'react'
-import { Spinner } from 'react-bootstrap'
+import React from "react";
+import { ProgressBar } from "react-bootstrap";
 
 const Fetching = () => {
-    return (
-        <div>
-            <Spinner animation="border" variant="secondary" style={{height: '3rem', width:'3rem'}}/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <ProgressBar animated now={100} style={{ height: "2rem" }} />
+    </div>
+  );
+};
 
 export default Fetching;

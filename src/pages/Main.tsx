@@ -1,16 +1,14 @@
-import React from 'react';
-import File from '../components/File';
-import Result from '../components/Result';
+import React from "react";
+import File from "../components/File";
+import Result from "../components/Result";
 
 const Main = () => {
-    return (
+  return (
+    <div className="h-auto p-2">
+      <File />
+      <Result />
+    </div>
+  );
+};
 
-        <div className='h-auto p-2'>
-          <File/>
-          <Result/>
-        </div>
-
-    )
-}
-
-export default Main
+export default Main;

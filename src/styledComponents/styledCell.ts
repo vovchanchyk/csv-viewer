@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledCell = styled.span`
+const StyledCell = styled.span`
   display: flex;
   overflow: auto;
   justify-content: flex-start;
@@ -20,3 +20,5 @@ export const StyledCell = styled.span`
     // outline: 1px solid slategrey;
   }
 `;
+
+export default StyledCell;

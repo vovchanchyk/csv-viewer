@@ -1,5 +1,5 @@
 import React from "react";
-import checkField from "../../../functions/checkField";
+import checkField from "../../../utils/checkField";
 import { ColumnType } from "../../../redux/reducers/dataReducer";
 import StyledCell from "../../../styledComponents/styledCell";
 import Rules from "./rules/Rules";

@@ -1,6 +1,6 @@
 import Papa from "papaparse";
 import { Dispatch } from "react";
-import getPayload from "../../functions/getPayload";
+import getPayload from "../../utils/getPayload";
 import { GETDATA } from "../actionTypes";
 import { ActionType } from "../reducers/dataReducer";
 
